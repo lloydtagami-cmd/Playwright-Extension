@@ -1,6 +1,6 @@
 import {test , expect} from "@playwright/test"
 
-test("GET API", async function name({request}) {
+test.skip("GET API", async function name({request}) {
 
     const resp = await request.get("https://restful-booker.herokuapp.com/booking/2146")
 

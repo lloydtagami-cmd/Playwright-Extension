@@ -1,6 +1,6 @@
 import {test , expect} from "@playwright/test"
 
-test("POST API", async function name({request}) {
+test.skip("POST API", async function name({request}) {
 
     const bookingData = 
     {

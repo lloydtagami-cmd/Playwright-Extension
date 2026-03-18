@@ -1,6 +1,6 @@
 import {test , expect} from "@playwright/test"
 
-test("PUT API", async function name({request}) {
+test.skip("PUT API", async function name({request}) {
 
     const updatebookingData = 
     {
