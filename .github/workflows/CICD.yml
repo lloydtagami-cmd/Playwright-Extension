@@ -2,8 +2,14 @@ name: Build & Deploy automation testing
 on:
   push:
     branches: [DevBranch]
+    paths:
+      - 'tests/**'
+      - '!tests/smoke_testing/**'
   pull_request:
     branches: [DevBranch]
+    paths:
+      - 'tests/**'
+      - '!tests/smoke_testing/**'
 jobs:
     build-deploy: 
         name: Build & Deploy for beginner
