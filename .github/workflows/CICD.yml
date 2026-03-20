@@ -2,6 +2,8 @@ name: Build & Deploy automation testing
 on:
   push:
     branches: [DevBranch]
+  pull_request:
+    branches: [DevBranch]
 jobs:
     build-deploy: 
         name: Build & Deploy for beginner
