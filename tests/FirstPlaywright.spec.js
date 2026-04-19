@@ -15,5 +15,4 @@ test.skip("My Third Test",async function({page}) {
 
 test.skip("My Fourth Test",async function({page}) {
     expect("Lloyd Tagami").toContain("Lloyd")
-    expect("Lloyd Tagami").toContain("Lloyd")
 })
